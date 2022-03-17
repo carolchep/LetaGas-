@@ -1,8 +1,8 @@
 import Image from "next/image";
-import styles from "../styles/PizzaCard.module.css";
+import styles from "../styles/GasCard.module.css";
 import Link from "next/link";
 
-const PizzaCard = ({ pizza }) => {
+const GasCard = ({ pizza }) => {
   return (
     <div className={styles.container}>
       <Link href={`/product/${pizza._id}`} passHref>
@@ -15,4 +15,4 @@ const PizzaCard = ({ pizza }) => {
   );
 };
 
-export default PizzaCard;
+export default GasCard;
