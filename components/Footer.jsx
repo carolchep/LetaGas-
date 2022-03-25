@@ -10,11 +10,11 @@ const Footer = () => {
       <div className={styles.item}>
         <div className={styles.card}>
           <h2 className={styles.motto}>
-            OH YES, WE DID.THE HOTTEST PIZZA, WELL BAKED SLICE OF PIZZA.
+            WE ARE THE BEST IN TOWN
           </h2>
         </div>
         <div className={styles.card}>
-          <h1 className={styles.title}>FIND OUR RESTAURANTS</h1>
+          <h1 className={styles.title}>FIND OUR DEPORTS</h1>
           <p className={styles.text}>
             1654 R. Kimathi Road #304.
             <br /> Nairobi, 85022
