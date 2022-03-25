@@ -1,4 +1,4 @@
-import styles from "../styles/PizzaList.module.css";
+import styles from "../styles/GasList.module.css";
 import GasCard from "./GasCard";
 
 const GasList = ({ gasList }) => {
@@ -17,4 +17,4 @@ const GasList = ({ gasList }) => {
   );
 };
 
-export default PizzaList;
+export default GasList;
