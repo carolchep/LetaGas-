@@ -14,7 +14,7 @@ const Footer = () => {
           </h2>
         </div>
         <div className={styles.card}>
-          <h1 className={styles.title}>FIND OUR DEPORTS</h1>
+          <h1 className={styles.title}>FIND OUR DEPORTS  IN KENYA</h1>
           <p className={styles.text}>
             1654 R. Kimathi Road #304.
             <br /> Nairobi, 85022
