@@ -24,3 +24,19 @@ export default function Home({ pizzaList, admin }) {
         </div>
     );
 }
+export const getServerSideProps = async (ctx) => {
+    const myCookie = ctx.req?.cookies || "";
+    let admin = false;
+
+    if (myCookie.token === process.env.TOKEN) {
+        admin = true;
+    }
+
+    const res = await axios.get("https://thethepizzqa-ht5am7lq7-carolchep.vercel.app/api/products");
+    return {
+        props: {
+            pizzaList: res.data,
+            admin,
+        },
+    };
+};
