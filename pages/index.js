@@ -5,8 +5,8 @@ import { useState } from "react";
 import Add from "../components/Add";
 import AddButton from "../components/AddButton";
 import Featured from "../components/Featured";
-import PizzaList from "../components/PizzaList";
 import styles from "../styles/Home.module.css";
+import GasList from "../components/GasList";
 
 export default function Home({ pizzaList, admin }) {
     const [close, setClose] = useState(true);
@@ -19,7 +19,7 @@ export default function Home({ pizzaList, admin }) {
             </Head>
             <Featured />
             {<AddButton setClose={setClose} />}
-            <PizzaList pizzaList={pizzaList} />
+            <GasList pizzaList={pizzaList} />
             {!close && <Add setClose={setClose} />}
         </div>
     );
@@ -32,7 +32,7 @@ export const getServerSideProps = async (ctx) => {
         admin = true;
     }
 
-    const res = await axios.get("https://thethepizzqa-ht5am7lq7-carolchep.vercel.app/api/products");
+    const res = await axios.get("http://localhost:3000//api/products");
     return {
         props: {
             pizzaList: res.data,
