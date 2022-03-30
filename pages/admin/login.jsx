@@ -15,7 +15,7 @@ const Login = () => {
                 username,
                 password,
             });
-            router.push("/admin");
+            await router.push("/admin");
         } catch (err) {
             setError(true);
         }
