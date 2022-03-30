@@ -1,7 +1,7 @@
 import styles from "../styles/GasList.module.css";
 import GasCard from "./GasCard";
 
-const GasList = ({ gasList }) => {
+const GasList = ({ pizzaList }) => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>FAST DELIVERY IS OUR PRIORTY</h1>
@@ -9,7 +9,7 @@ const GasList = ({ gasList }) => {
         Leta Gas takes off the heavy lifting of your gas ordering process.
       </p>
       <div className={styles.wrapper}>
-        {gasList.map((pizza) => (
+        {pizzaList.map((pizza) => (
           <GasCard key={pizza._id} pizza={pizza} />
         ))}
       </div>
