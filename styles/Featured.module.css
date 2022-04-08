@@ -12,7 +12,8 @@
   .container h1{
     color:whitesmoke;
     display: flex;
-    /*justify-content: center;*/
+    justify-content: center;
+    align-items: center;
   }
   .arrowContainer {
     position: absolute;
