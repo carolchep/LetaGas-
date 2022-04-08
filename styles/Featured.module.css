@@ -11,7 +11,9 @@
   }
   .container h1{
     color:whitesmoke;
-margin: auto  }
+    display: flex;
+    /*justify-content: center;*/
+  }
   .arrowContainer {
     position: absolute;
     width: 10%;
