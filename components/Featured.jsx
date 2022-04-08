@@ -8,7 +8,6 @@ const Featured = () => {
 
   return (
     <div className={styles.container}>
-        <Navbar/>
       <h1>YOU ORDER WE DELIVER</h1>
     </div>
   );

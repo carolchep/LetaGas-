@@ -1,15 +1,15 @@
 .container {
-    height: calc(100vh - 100px);
+    height: 100vh;
     /*background-color: darkolivegreen;*/
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('https://media.istockphoto.com/photos/different-types-of-gas-bottles-isolated-on-white-background-picture-id1288462295?b=1&k=20&m=1288462295&s=170667a&w=0&h=N1OAtzdtQDaUjvUozRFUximkNmpYeIX8BQl-V5citVk=');
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('https://media.istockphoto.com/photos/gas-tanks-or-bottles-on-explosive-flame-and-fire-background-danger-of-picture-id1298091272?s=612x612');
     overflow: hidden;
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
-
     position: relative;
   }
   .container h1{
+    margin-top: 350px;
     color:whitesmoke;
     display: flex;
     justify-content: center;
