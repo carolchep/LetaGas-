@@ -19,10 +19,14 @@ const Featured = () => {
     </ul>
 </div>
           <div className={styles.content}>
-        <h1>MAKE YOUR GAS ORDER WITH LETA GAS
+        <h1>MAKE YOUR GAS ORDER WITH LETAGAS
         </h1>
 <p>            Make your order and we deliver
 </p>
+              <div >
+                  <button className={styles.button} ><span className={styles.span1}>LEARN MORE</span></button>
+                  <button className={styles.button} > <span className={styles.span1}>MAKE ORDER</span></button>
+              </div>
           </div>
       </div>
   );
