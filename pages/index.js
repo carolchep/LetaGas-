@@ -7,6 +7,7 @@ import AddButton from "../components/AddButton";
 import Featured from "../components/Featured";
 import styles from "../styles/Home.module.css";
 import GasList from "../components/GasList";
+import Footer from "../components/Footer";
 
 export default function Home({ pizzaList, admin }) {
     const [close, setClose] = useState(true);
@@ -21,6 +22,7 @@ export default function Home({ pizzaList, admin }) {
             {<AddButton setClose={setClose} />}
             <GasList pizzaList={pizzaList} />
             {!close && <Add setClose={setClose} />}
+            <Footer/>
         </div>
     );
 }

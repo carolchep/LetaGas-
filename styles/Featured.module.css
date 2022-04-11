@@ -23,6 +23,7 @@
       width:120px;
       cursor:pointer;
       font-size:29px;
+      border:7px solid;
   }
 .nav ul li {
     list-style: none;
@@ -98,7 +99,7 @@ position: relative;
     overflow: hidden;
     text-align: center;
     z-index: -1;
-       background: #d1411e;
+       background:red;
 
 
 }
