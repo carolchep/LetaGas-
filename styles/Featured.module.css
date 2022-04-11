@@ -22,6 +22,7 @@
       color: white;
       width:120px;
       cursor:pointer;
+      font-size:29px;
   }
 .nav ul li {
     list-style: none;
@@ -34,12 +35,19 @@ position: relative;
     text-decoration: none;
     text-transform: capitalize;
 }
-  .container h1{
-    margin-top: 350px;
-    color:whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /*.container h1{*/
+.content{
+    /*margin-top: 350px;*/
+    /*color:whitesmoke;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    width: 100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: whitesmoke;
   }
 .nav ul li::after{
     content: '';

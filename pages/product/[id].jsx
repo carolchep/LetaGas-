@@ -4,6 +4,8 @@ import { useState } from "react";
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { addProduct } from "../../redux/cartSlice";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 const Product = ({ pizza }) => {
   const [price, setPrice] = useState(pizza.prices[0]);
@@ -39,7 +41,12 @@ const Product = ({ pizza }) => {
   };
 
   return (
-      <div className={styles.container}>
+<div>
+
+  <Navbar/>
+
+  <div className={styles.container}>
+
         <div className={styles.left}>
           <div className={styles.imgContainer}>
             <Image src={pizza.img} objectFit="contain" layout="fill" alt="" />
@@ -92,6 +99,8 @@ const Product = ({ pizza }) => {
           </div>
         </div>
       </div>
+<Footer/>
+</div>
   );
 };
 

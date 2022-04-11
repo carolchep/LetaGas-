@@ -18,9 +18,12 @@ const Featured = () => {
         <li>Contact</li>
     </ul>
 </div>
-        <h1>YOU ORDER WE DELIVER</h1>
-
-
+          <div className={styles.content}>
+        <h1>MAKE YOUR GAS ORDER WITH LETA GAS
+        </h1>
+<p>            Make your order and we deliver
+</p>
+          </div>
       </div>
   );
 };
