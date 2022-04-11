@@ -22,7 +22,7 @@ const Featured = () => {
 </div>
           <div className={styles.content}>
         <h1>MAKE YOUR  ORDER WITH <span style={{color: "red"}}>LETAGAS</span>
-        </h1>
+        </h1 >
 <p>            Make your order and we deliver
 </p>
               <div >

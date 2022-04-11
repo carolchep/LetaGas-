@@ -77,6 +77,7 @@ position: relative;
 .content h1{
     font-size: 50px;
     margin-top: 80px;
+
 }
 
 .content p{
@@ -84,6 +85,7 @@ position: relative;
     font-size: 40px;
     font-weight: 100;
     line-height: 25px;
+    font-style: oblique;
 }
 .button{
     width: 200px;

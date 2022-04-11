@@ -5,13 +5,23 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <Image src="/img/bg.png" objectFit="cover" layout="fill" alt="" />
+        <Image src="/img/img25.jpg" objectFit="cover" layout="fill" alt="" style={{height:"100px"}}/>
+
+        <div className={styles.texts}>
+          <div className={styles.heading}>Contact us</div>
+
+          <Image src="/img/.jpg" objectFit="cover" layout="fill" alt="" />
+
+        </div>
       </div>
       <div className={styles.item}>
         <div className={styles.card}>
           <h2 className={styles.motto}>
-            WE ARE THE BEST IN TOWN
+            Contact Us
           </h2>
+          <div className={styles.text}><span style={{fontWeight:"500"}}>+254 711 344 457</span></div>
+        <div className={styles.logo2}><h2>LETA<span style={{color:"red"}}>GA<span style={{margin:"7px"}}>S.</span></span></h2></div>
+
         </div>
         <div className={styles.card}>
           <h1 className={styles.title}>FIND OUR DEPORTS  IN KENYA</h1>

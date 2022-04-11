@@ -4,7 +4,7 @@ import GasCard from "./GasCard";
 const GasList = ({ pizzaList }) => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>ORDER WITH US TODAY</h1>
+      <h1 className={styles.title}>ORDER WITH US <span style={{color:"red",fontStyle:"oblique"}} >TODAY</span></h1>
       <p className={styles.desc}>
         Leta Gas takes off the heavy lifting of your gas ordering process.
       </p>
@@ -13,6 +13,7 @@ const GasList = ({ pizzaList }) => {
           <GasCard key={pizza._id} pizza={pizza} />
         ))}
       </div>
+
     </div>
   );
 };

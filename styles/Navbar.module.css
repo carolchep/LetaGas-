@@ -2,7 +2,7 @@
     height: 100px;
     padding: 0px 50px;
     /*background-color: #d1411e;*/
-    background-color: #b7903c;
+    background-color:grey;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,7 +10,15 @@
     top: 0;
     z-index: 999;
 }
-
+.log3{
+    color: white;
+    width:170px;
+    cursor:pointer;
+    font-size:20px;
+    border:9px solid;
+    /*background: transparent;*/
+    margin: auto;
+}
 .item {
     flex: 1;
     display: flex;

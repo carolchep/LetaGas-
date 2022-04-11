@@ -3,7 +3,14 @@
     background-color:dimgrey;
     display: flex;
   }
-  
+.logo2 {
+  color: white;
+  width: 150px;
+  cursor: pointer;
+  font-size: 25px;
+  border: 7px solid;
+  margin-top: 30px;
+}
   .item {
     flex: 1;
     position: relative;
@@ -23,11 +30,31 @@
   
   .title {
     font-size: 18px;
-    color: #b7903c;
+    color: darkred;
   }
-  
+  .heading{
+    font-size: 30px;
+    color:whitesmoke;
+    margin: 70px 50px;
+  }
+.callButton {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+.texts {
+  margin-left: 20px;
+  margin-top: 70px;
+  color: white;
+
+  font-weight: 700;
+}
+
   .text {
     color: lightgray;
+
   }
   
   .motto {

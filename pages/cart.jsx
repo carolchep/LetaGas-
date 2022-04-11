@@ -11,6 +11,8 @@ import axios from "axios";
 import { useRouter } from "next/router";
 import { reset } from "../redux/cartSlice";
 import OrderDetail from "../components/OrderDetail";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
@@ -92,6 +94,8 @@ const Cart = () => {
   };
 
   return (
+      <div>
+        <Navbar/>
       <div className={styles.container}>
         <div className={styles.left}>
           <table className={styles.table}>
@@ -186,6 +190,8 @@ const Cart = () => {
           </div>
         </div>
         {cash && <OrderDetail total={cart.total} createOrder={createOrder} />}
+      </div>
+        <Footer/>
       </div>
   );
 };
