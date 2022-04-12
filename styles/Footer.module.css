@@ -1,6 +1,6 @@
 .container {
     height: 350px;
-    background-color:dimgrey;
+    background-color:rgb(29, 23, 23);
     display: flex;
   }
 .logo2 {
