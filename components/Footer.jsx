@@ -32,8 +32,7 @@ const Footer = () => {
           </p>
           <p className={styles.text}>
             2356 K. Luthuli Rd #235.
-            <br /> Nairobi, 85022
-            <br /> (602) 867-1011
+           
           </p>
           <p className={styles.text}>
             1614 E. Mugoma St #104.
