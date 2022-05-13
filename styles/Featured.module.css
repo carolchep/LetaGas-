@@ -1,8 +1,7 @@
 .container {
     height: 100vh;
     /*background-color: darkolivegreen;*/
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6))
-  ,url('https://media.istockphoto.com/photos/man-carrying-lpg-gas-bottle-at-gas-station-picture-id928048988?k=20&m=928048988&s=612x612&w=0&h=makVl1VTFVNLYHqASgh9TAO51oyzQCJKGimHRsHWAVo=');
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://media.istockphoto.com/photos/male-worker-carrying-gas-cylinder-to-storage-room-in-liquefied-gas-picture-id1313642353?k=20&m=1313642353&s=612x612&w=0&h=bUlMglAmPEACD4ZMJ1uENW41kev3QrG4KID-5rOxFuo=');
     overflow: hidden;
   background-size: cover;
   width: 100%;
