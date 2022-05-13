@@ -1,7 +1,8 @@
 .container {
     height: 100vh;
     /*background-color: darkolivegreen;*/
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('https://media.istockphoto.com/photos/liquefied-gas-storage-workers-carrying-gas-cylinder-on-staircase-picture-id1325047322?k=20&m=1325047322&s=612x612&w=0&h=Vc6bQ6jtimkoieQv1N-iiUPcNsh6F_QfEo35zccIcQQ=');
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6))
+  ,url('https://media.istockphoto.com/photos/man-carrying-lpg-gas-bottle-at-gas-station-picture-id928048988?k=20&m=928048988&s=612x612&w=0&h=makVl1VTFVNLYHqASgh9TAO51oyzQCJKGimHRsHWAVo=');
     overflow: hidden;
   background-size: cover;
   width: 100%;
