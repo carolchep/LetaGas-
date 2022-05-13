@@ -35,7 +35,7 @@ export const getServerSideProps = async (ctx) => {
     }
 
     // const res = await axios.get("http://localhost:3000/api/products");
-    const res = await axios.get("https://leta-gas-git-main-carolchep.vercel.app/products");
+    const res = await axios.get("https://vercel.com/carolchep/leta-gas1");
     return {
         props: {
             pizzaList: res.data,
