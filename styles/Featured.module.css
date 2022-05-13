@@ -1,7 +1,7 @@
 .container {
     height: 100vh;
     /*background-color: darkolivegreen;*/
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://cdn.pixabay.com/photo/2020/04/10/20/23/gas-5027704_960_720.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('https://cdn.pixabay.com/photo/2020/04/10/20/23/gas-5027704_960_720.jpg');
     overflow: hidden;
   background-size: cover;
   width: 100%;
